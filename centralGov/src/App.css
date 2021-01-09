@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+form {
+  margin: 1vw;
+}
+input[type="number"] {
+  margin: 0 1vw;
+}
+
+p {
+  margin: 2vw;
+}
+
+.value {
+  font-size: 3vw;
+  margin-top: 3vw;
+  margin-bottom: -1.5vw;
+}
