@@ -5,6 +5,7 @@ import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
+    <div className="dummyBG"></div>
     <App />
   </React.StrictMode>,
   document.getElementById("root")

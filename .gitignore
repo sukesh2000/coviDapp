@@ -2,11 +2,15 @@
 
 # dependencies
 /node_modules
+/stateGov/node_modules
+/centralGov/node_modules
 /.pnp
 .pnp.js
-
+.gitignore
 # testing
 /coverage
+.vscode
+.eslintcache
 
 # production
 /build
