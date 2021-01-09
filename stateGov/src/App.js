@@ -47,10 +47,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>State Government</h1>
-      {!loader && <div className="value">{value}</div>}
-      {loader && <Loader />}
-      <p>Vaccines Available with State Government</p>
+      <p>Performing Operations as: <strong>State Government</strong> </p>
+      {/* <h1>State Government</h1> */}
+      <div class = "counter">
+        <h4>Vaccines Available with Central Government - </h4>
+        {!loader && <div className="value">{value}</div>}
+        {loader && <Loader />}
+      </div>
+      
+      <h3>Transfer Vaccines to: State Gov Hospitals</h3>
       <form
         onSubmit={async (e) => {
           await handleEvent(e, update, {
@@ -59,12 +64,11 @@ const App = () => {
           });
         }}
       >
-        <label>Request Vaccines : </label>
-        <input type="string" name="centralGovtAdd" step="1" />
-        <input type="number" name="reqVaccine" step="1" />
-        <input type="submit" value="Update" />
+        <input type="string" name="centralGovtAdd" step="1" placeholder="Hash Address of the hospital" />
+        <input type="number" name="reqVaccine" step="1" placeholder="Units of Vaccines to be Sent"/>
+        <input type="submit" className="submitBtn" value="Transfer Vaccine" />
       </form>
-      <p dangerouslySetInnerHTML={{ __html: "Tx Status : " + status }}></p>
+      <p className="hiddenText" dangerouslySetInnerHTML={{ __html: "Tx Status : " + status }}></p>
     </div>
   );
 };
@@ -75,10 +79,7 @@ const Loader = () => {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       style={{
-        margin: "auto",
         display: "block",
-        marginTop: "3vw",
-        marginBottom: "-1vw",
       }}
       width="3vw"
       height="3vw"
@@ -89,7 +90,7 @@ const Loader = () => {
         cx="50"
         cy="50"
         fill="none"
-        stroke="#0a0a0a"
+        stroke="#cc085a"
         strokeWidth="10"
         r="35"
         strokeDasharray="164.93361431346415 56.97787143782138"
