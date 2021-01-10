@@ -4,6 +4,7 @@
 /node_modules
 /stateGov/node_modules
 /centralGov/node_modules
+/hospital/node_modules
 /.pnp
 .pnp.js
 .gitignore

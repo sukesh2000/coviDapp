@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { connectWallet, setup } from "./library/connect";
-import { getValue, transferHosp, vaccReq } from "./library/interact";
+import { getValue, reqVacc } from "./library/interact";
 
 const App = () => {
   const [Tezos, setTezos] = useState(undefined);
@@ -47,42 +47,26 @@ const App = () => {
 
   return (
     <div className="App">
-      <p>Performing Operations as: <strong>State Government</strong> </p>
-      {/* <h1>State Government</h1> */}
+      <p>Performing Operations as: <strong>Gov Hospital</strong> </p>
       <div class = "counter">
-        <h4>Vaccines Available with State Government - </h4>
+        <h4>Vaccines Available in Hospital's Inventory - </h4>
         {!loader && <div className="value">{value}</div>}
         {loader && <Loader />}
       </div>
-      
-      <h3>Transfer Vaccines to: State Gov Hospitals</h3>
+      <h3>Request Vaccines from: State Government</h3>
       <form
         onSubmit={async (e) => {
-          await handleEvent(e, transferHosp, {
+          await handleEvent(e, reqVacc, {
             address: e.target.address.value,
             amtVaccine: e.target.amtVaccine.value,
           });
         }}
       >
-        <input type="string" name="address" step="1" placeholder="Hash Address of the hospital" />
-        <input type="number" name="amtVaccine" step="1" placeholder="Units of Vaccines to be Sent"/>
+        {/* <label>Enter the State Hash Address</label> */}
+        <input type="string" name="address" step="1" placeholder="Hash Address of the State"/>
+        <input type="number" name="amtVaccine" step="1" placeholder="Units of Vaccines to be Requested"/>
         <input type="submit" className="submitBtn" value="Transfer Vaccine" />
       </form>
-
-      <h3>Request Vaccines from Central Government</h3>
-      <form
-        onSubmit={async (e) => {
-          await handleEvent(e, vaccReq, {
-            address: e.target.address.value,
-            amtVaccine: e.target.amtVaccine.value,
-          });
-        }}
-      >
-        <input type="string" name="address" step="1" placeholder="Hash Address of the Central Government" />
-        <input type="number" name="amtVaccine" step="1" placeholder="Units of Vaccines to be Requested"/>
-        <input type="submit" className="submitBtn" value="Request Vaccine" />
-      </form>
-
       <p className="hiddenText" dangerouslySetInnerHTML={{ __html: "Tx Status : " + status }}></p>
     </div>
   );
