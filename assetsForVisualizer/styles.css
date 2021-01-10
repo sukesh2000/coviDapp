@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    margin-top: -45vh;
+    margin-bottom: 37vh;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+#topContainer{
+    height: 50vh;
+    background-color: #cc085a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topContainer input{
+    margin: 0px 10px;
+    height: 40px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 1.25rem;
+}
+
+#hashId{
+    width: 500px;
+    padding: 25px 10px;
+    border: 0px;
+}
+
+#submitBtn{
+    width: 250px;
+    color: white;
+    background-color: #cc085a;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#bottomContainer{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.transaction{
+    width: 70vw;
+    margin: 15px;
+    border: 2px solid #cc085a;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.transaction span{
+    color: #cc085a;
+}
