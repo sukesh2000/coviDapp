@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<p align="center">
+    <img src = "https://raw.githubusercontent.com/sukesh2000/coviDapp/f72cdfb69163b84040fa29d331ad5297be4b8376/public/129-wear-mask.svg">
+	<h1 align="center">CoviDapp</h1>
+	<h3 align="center">A BlockChain based solution for corruptionless distribution of Covid Vaccines through different levels of power.</h3>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Design
+|<img src="https://github.com/sukesh2000/coviDapp/blob/main/screenshots/1.png?raw=true"/>|<img src="https://github.com/sukesh2000/coviDapp/blob/main/screenshots/2.png?raw=true"/>|<img src="https://github.com/sukesh2000/coviDapp/blob/main/screenshots/3.png?raw=true"/>|
+|---|---|---|
 
-## Available Scripts
+<h3 align="center">Built With</h3>
+<p align=center>
+    <img height="100px" src = "https://cdn.worldvectorlogo.com/logos/react.svg"/>
+    <img height="100px" src = "https://smartpy.io/static/img/logo-only.svg"/>
+    <img height="100px" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tezos_logo.svg/1200px-Tezos_logo.svg.png"/>
+</p>
 
-In the project directory, you can run:
+--- 
 
-### `npm start`
+## Instructions to run on your local system
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Pre-requisites:
+	- Node v 10+
+    - Install all the required libraries using the `npm install` command in your CMD. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Directions to execute
+    - ``` npm start ```
+    - The app will be visible on `localhost:3000` port of your local machine.
+    - Go to the `/hospital`, `/stateGov`, `/centralGov` routes to check/perform transactions.
+    - Go to the [Transactions Page](https://sukesh2000.github.io/coviDapp/) to view the transactions of a specific HashID.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3 align="center">Contributors</h3>
+<table align="center">
+<tr>
 
-### `npm run build`
+<td class="contributer" align="center">
+<h3>Arnab Deep</h3>
+<p align="center">
+<img src = "https://avatars2.githubusercontent.com/u/49037005?s=460&u=5141a8e80dcb54841dc20263a1db94d8dff0775c&v=4" width="150" height="150" alt="Arnab Deep Image">
+</p>
+<p align="center">
+<a href = "https://github.com/arnoob16"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36" alt="GitHub"/></a>
+<a href = "https://www.linkedin.com/in/arnabdeep/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36" alt="LinkedIn"/>
+</a>
+</p>
+</td>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<td class="contributer" align="center">
+<h3>Sukesh Seth</h3>
+<p align="center">
+<img src = "https://avatars1.githubusercontent.com/u/41232037?s=460&u=1dd6e5dfc480d382ae0621e46cdd0819046a94c5&v=4" width="150" height="150" alt="Sukesh Seth Image">
+</p>
+<p align="center">
+<a href = "https://github.com/sukesh2000">
+<img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36" alt="GitHub"/></a>
+<a href = "https://www.linkedin.com/in/sukeshseth/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36" alt="LinkedIn"/>
+</a>
+</p>
+</td>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</tr>
+</table>
 
-### `npm run eject`
+#### Notes
+- A star to the repository would be massive boost to a NOOB like us.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align=center>
+<img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
+</p>
