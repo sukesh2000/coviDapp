@@ -65,7 +65,7 @@ const App = () => {
         {/* <label>Enter the State Hash Address</label> */}
         <input type="string" name="address" step="1" placeholder="Hash Address of the State"/>
         <input type="number" name="amtVaccine" step="1" placeholder="Units of Vaccines to be Requested"/>
-        <input type="submit" className="submitBtn" value="Transfer Vaccine" />
+        <input type="submit" className="submitBtn" value="Request Vaccine" />
       </form>
       <p className="hiddenText" dangerouslySetInnerHTML={{ __html: "Tx Status : " + status }}></p>
     </div>
