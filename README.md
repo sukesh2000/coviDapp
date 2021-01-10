@@ -4,6 +4,10 @@
 	<h3 align="center">A BlockChain based solution for corruptionless distribution of Covid Vaccines through different levels of power.</h3>
 </p>
 
+## Design
+|<img src="https://github.com/sukesh2000/coviDapp/blob/main/screenshots/1.png?raw=true"/>|<img src="https://github.com/sukesh2000/coviDapp/blob/main/screenshots/2.png?raw=true"/>|<img src="https://github.com/sukesh2000/coviDapp/blob/main/screenshots/3.png?raw=true"/>|
+|---|---|---|
+
 <h3 align="center">Built With</h3>
 <p align=center>
     <img height="100px" src = "https://cdn.worldvectorlogo.com/logos/react.svg"/>
