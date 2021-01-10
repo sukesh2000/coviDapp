@@ -8,7 +8,7 @@ const StateGov = () => {
   const [status, setStatus] = useState("No Operations Performed");
   const [value, setValue] = useState(0);
   const [loader, setLoader] = useState(true);
-  const [toggler, setToggler] = useState(false);
+  // const [toggler, setToggler] = useState(false);
 
   useEffect(() => {
     console.log("run");
@@ -82,7 +82,7 @@ const StateGov = () => {
         <input type="number" name="amtVaccine" step="1" placeholder="Units of Vaccines to be Requested"/>
         <input type="submit" className="submitBtn" value="Request Vaccine" />
       </form>
-      <div 
+      {/* <div 
         className="requestsContainer"
         style={{visibility: toggler ? 'visible' : 'hidden' }}
         >
@@ -95,7 +95,7 @@ const StateGov = () => {
             setToggler(!toggler)
           }
         }
-      >Reveal Vaccine requests from the Hospitals</button>
+      >Reveal Vaccine requests from the Hospitals</button> */}
       <p className="hiddenText" dangerouslySetInnerHTML={{ __html: "Tx Status : " + status }}></p>
     </div>
   );
