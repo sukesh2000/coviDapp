@@ -49,7 +49,6 @@ const StateGov = () => {
   return (
     <div className="StateGov">
       <p>Performing Operations as: <strong>State Government</strong> </p>
-      {/* <h1>State Government</h1> */}
       <div class = "counter">
         <h4>Vaccines Available with State Government - </h4>
         {!loader && <div className="value">{value}</div>}
