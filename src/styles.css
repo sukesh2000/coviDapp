@@ -138,7 +138,7 @@ form {
 
 input {
   margin: 10px;
-  width: 250px;
+  width: 300px;
   height: 40px;
   padding: 5px 10px;
   border-radius: 20px;
@@ -146,5 +146,5 @@ input {
   background-color: transparent;
   color: #cc085a;
   font-weight: 800;
-  border: 2px solid #cc085a;
+  border: 3px solid #cc085a;
 }
