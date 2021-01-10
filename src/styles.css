@@ -148,3 +148,9 @@ input {
   font-weight: 800;
   border: 3px solid #cc085a;
 }
+
+.requestBtn{
+  padding: 5px 10px;
+  outline: none;
+  margin-top: 5px;
+}

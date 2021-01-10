@@ -8,6 +8,7 @@ const StateGov = () => {
   const [status, setStatus] = useState("No Operations Performed");
   const [value, setValue] = useState(0);
   const [loader, setLoader] = useState(true);
+  const [toggler, setToggler] = useState(false);
 
   useEffect(() => {
     console.log("run");
@@ -82,7 +83,20 @@ const StateGov = () => {
         <input type="number" name="amtVaccine" step="1" placeholder="Units of Vaccines to be Requested"/>
         <input type="submit" className="submitBtn" value="Request Vaccine" />
       </form>
-
+      <div 
+        className="requestsContainer"
+        style={{visibility: toggler ? 'visible' : 'hidden' }}
+        >
+          <h5>KT1WtRewpx8Fv7J5HG9UKfLvrosyqZ9xeajL requested 38 units of Vaccine.</h5>
+      </div>
+      <button 
+        className="requestBtn"
+        onClick={
+          async (e) => {
+            setToggler(!toggler)
+          }
+        }
+      >Reveal Vaccine requests from the Hospitals</button>
       <p className="hiddenText" dangerouslySetInnerHTML={{ __html: "Tx Status : " + status }}></p>
     </div>
   );
