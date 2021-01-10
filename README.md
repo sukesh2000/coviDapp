@@ -17,6 +17,13 @@
 
 --- 
 
+## Instruction to view live
+- To check from the Hospital's perspective - https://covi-dapp.arnoob16.vercel.app/hospital
+- To check from the State's perspective - https://covi-dapp.arnoob16.vercel.app/stateGov
+- To check from the Central's perspective - https://covi-dapp.arnoob16.vercel.app/centralGov
+- To track the transactions made - https://sukesh2000.github.io/coviDapp/
+
+
 ## Instructions to run on your local system
 
 * Pre-requisites:
