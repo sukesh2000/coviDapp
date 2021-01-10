@@ -21,5 +21,5 @@ export const getValue = (Tezos) =>
     .at(config.contractAddr)
     .then((contract) => contract.storage())
     .then((storage) => {
-      return storage.vaccineAvailable.toString();
+      return storage.toString();
     });
