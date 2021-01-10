@@ -10,7 +10,6 @@ ReactDOM.render(
   <React.StrictMode>
     <div className="dummyBG"></div>
     <Router>
-      <span path="/">{window.location.href = "https://sukesh2000.github.io/coviDapp/"}</span>
       <Hospital path="/hospital"/>
       <CentralGov path="/centralGov"/>
       <StateGov path="/stateGov"/>
